@@ -22,7 +22,6 @@ public class controller {
     public controller(FoodService foodService) {
         this.foodService = foodService;
     }
-    
 
     @GetMapping
     public List<Food> getall() {return foodService.getAll();}
@@ -30,7 +29,7 @@ public class controller {
     @PostMapping
     public Food create(@RequestBody Food food) {return foodService.save(food);}
 
-    @DeleteMapping
-    public void delete(@PathVariable Long id) {foodService.delete(id);} 
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable Food id) {foodService.delete(id);} 
 
 }
