@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Finalizado-green?style=for-the-badge)
 
 Este repositório contém o desenvolvimento de uma API RESTful utilizando o ecossistema **Spring Boot**. O projeto foca na construção de um sistema robusto, aplicando conceitos de persistência de dados, validações e arquitetura em camadas.
 
@@ -38,7 +38,7 @@ O projeto está organizado seguindo as melhores práticas de mercado:
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/Carlost1wre3/Java_SpringBoot.git](https://github.com/Carlost1wre3/Java_SpringBoot.git)
+   git clone [https://github.com/Carlost1wre3/Java_SpringBoot.git]
    ```
 2. **Importe em sua IDE: Abra o projeto no IntelliJ, Eclipse ou VS Code como um projeto Maven.**
 
